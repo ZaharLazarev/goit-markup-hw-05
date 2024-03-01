@@ -89,12 +89,11 @@ color: #fff;
   background: #404bbf;
   }
 
-.hero-button:hover {
+.hero-button:focus {
   background: #404BBF;
   }
 /** skills */
 .skills-title {
-  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
