@@ -1,15 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin:0;
+}
+ul{
+  margin:0;
+  padding-left:0;
+  list-style-type: none;
+}
+
 body{
   font-family:"Roboto", sans-serif;
   color: #434455;
   background-color:#FFFFFF;
 }
-ul{
-  list-style-type: none;
-}
+
 a{
   text-decoration: none;
 }
+
+.container{
+  width: 1158px; 
+}
 /** header */
+.top-section{
+  height: 72px;
+  border-bottom: 1px solid #e7e9fc;
+  background: #fff
+}
+
 .studio-top-section{
   color: #2e2f42;
 }
@@ -61,6 +84,30 @@ color:#434455;
   color: #404bbf;
   }
 
+.top-section .container{
+  display: flex;
+  padding: 24px 156px 24px 156px;
+  
+}
+
+.top-section nav{
+  display: flex;
+  margin-right:332px;
+}
+
+.navigation-list{
+  display: flex;
+  gap: 40px;
+  padding-left: 76px;
+}
+
+.addsress-list-item{
+display: flex;
+} 
+
+.addsress-list-item:first-child{
+  margin-right: 40px;
+}
 /** hero */
 .hero {
   background: #2e2f42;
@@ -73,6 +120,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+margin-bottom: 48px;
 }
 
 .hero-button {
@@ -83,6 +131,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
+padding: 16px 32px 16px 32px;
 }
 
 .hero-button:hover {
@@ -92,6 +141,13 @@ color: #fff;
 .hero-button:focus {
   background: #404BBF;
   }
+
+.hero .container{
+  display: flex;
+  flex-direction: column;
+  padding: 180px 635px 196px 635px;
+  justify-content: center;
+}
 /** skills */
 
 .skills-list-title {
@@ -100,6 +156,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .skills-list-text {
@@ -108,6 +165,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+.skills .container{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding:112px 156px 120px 156px;
+}
+
+.skills li{
+  width:calc(100% - 3 * 24px) / 4
+}
 /** team */
 .team{
   background-color: #F4F4FD
@@ -120,6 +187,8 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+padding-top: 120px;
+margin-bottom: 72px;
 }
 
 .team-list-title {
@@ -129,6 +198,11 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
+}
+
+.team-list-image{
+  margin-bottom: 32px;
 }
 
 .team-list-text {
@@ -136,12 +210,21 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
+margin-bottom: 32px;
 }
 
 .team-item{
   background-color: #FFFFFF;
 }
 
+.team .container{
+  display:flex;
+  gap: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-bottom: 120px;
+  justify-content: center;
+}
 /** portfolio */
 .portfolio-title {
 font-weight: 700;
@@ -151,12 +234,15 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+margin-bottom: 72px;
+padding-top: 120px;
 }
 
 .portfolio-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-bottom: 32px;
 }
 
 .portfolio-list-title{
@@ -165,6 +251,18 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
+margin-top: 32px;
+}
+
+.portfolio .container{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 156px;
+  padding-right: 156px;
+  gap:24px;
+  justify-content: center;
+  padding-bottom: 120px;
 }
 /** footer */
 .bottom-section {
@@ -179,6 +277,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-bottom: 16px;
 }
 
 .studio-bottom-section{
@@ -190,4 +289,16 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+}
+.bottom-section .container{
+display: flex;
+flex-direction: column;
+padding-left: 156px;
+padding-bottom: 100px;
+padding-top: 100px;
+}
+/**section */
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
