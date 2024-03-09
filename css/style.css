@@ -23,12 +23,15 @@ a{
   text-decoration: none;
 }
 
+img{
+  display: block;
+}
+
 .container{
   width: 1158px; 
 }
 /** header */
 .top-section{
-  height: 72px;
   border-bottom: 1px solid #e7e9fc;
   background: #fff
 }
@@ -86,13 +89,14 @@ color:#434455;
 
 .top-section .container{
   display: flex;
-  padding: 24px 156px 24px 156px;
-  
+  justify-content: center;
+  align-items: center;
 }
 
 .top-section nav{
   display: flex;
-  margin-right:332px;
+  margin-right: 332px;
+  padding-left: 156px;
 }
 
 .navigation-list{
@@ -101,12 +105,27 @@ color:#434455;
   padding-left: 76px;
 }
 
+.addsress-list{
+   display: flex;
+   margin-left:auto;
+   align-items: center;
+}
+
+.address{
+  padding-right: 0px;
+}
+
 .addsress-list-item{
-display: flex;
-} 
+  align-items: center;
+}
 
 .addsress-list-item:first-child{
   margin-right: 40px;
+}
+
+.top-section-container{
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /** hero */
 .hero {
