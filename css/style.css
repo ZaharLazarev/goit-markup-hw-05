@@ -64,6 +64,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 padding:24px 0 24px 0;
+display: block;
 }
 
 .navigation-list-item:hover {
@@ -140,9 +141,8 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 margin-bottom: 48px;
-margin-left: 472px;
-margin-right: 472px;
-justify-content: center;
+margin-left: auto;
+margin-right: auto;
 max-width: 496px;
 }
 
@@ -175,14 +175,6 @@ border-radius: 4px;
   background: #404BBF;
   }
 
-.hero .container{
-  width: 1440px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 188px;
-  padding-top: 188px;
-}
 /** skills */
 .skills-title{
 position: absolute;
@@ -209,13 +201,6 @@ margin-bottom: 8px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-}
-
-.skills .container{
-  display: flex;
-  flex-direction: row;
-  margin-left:156px;
-  margin-right:156px;
 }
 
 .skills ul{
@@ -255,29 +240,17 @@ color: #2e2f42;
 margin-bottom: 8px;
 }
 
-.team-list-image{
-  margin-bottom: 32px;
-}
-
 .team-list-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
-margin-bottom: 32px;
 }
 
 .team-item{
   background-color: #FFFFFF;
   width:calc((100% - 3 * 24px) / 4);
   border-radius:0px 0px 4px 4px;
-}
-
-.team .container{
-  margin-left: 156px;
-  margin-right: 156px;
-  justify-content: center;
-  width: 1158px;
 }
 
 .team-list-container{
@@ -300,7 +273,6 @@ margin-bottom: 72px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-bottom: 32px;
 }
 
 .portfolio-list-title{
@@ -310,14 +282,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
-margin-top: 32px;
-}
-
-.portfolio .container{
-  margin-left: 156px;
-  margin-right: 156px;
-  justify-content: center;
-  width:1158px;
 }
 
 .portfolio ul{
@@ -364,7 +328,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
-.bottom-section .container{
-margin-left: 156px;
+.bottom-section .bottom-container{
+width: 1158px;
+margin: auto;
 }
 
