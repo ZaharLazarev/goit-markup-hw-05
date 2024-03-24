@@ -554,6 +554,7 @@ color: #8e8f99;
 .label-checkbox{
   display: flex;
   align-items: center;
+  margin-bottom: 18px;
 }
 
 .checkbox{
@@ -588,10 +589,6 @@ text-decoration-skip-ink: none;
 color: #4d5ae5;
 }
 
-.checkbox-text{
-  margin-right: 3px;
-}
-
 .backdrop-header{
   font-weight: 500;
 font-size: 16px;
@@ -602,8 +599,6 @@ color: #2e2f42;
 margin-bottom: 16px;
 width: 360px;
 height:24px;
-position: absolute;
-top: 72px;
 }
 
 .backdrop-button{
@@ -624,6 +619,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
 color: #fff;
-margin-top: 18px;
+display: block;
+margin: 0 auto;
 }
 
