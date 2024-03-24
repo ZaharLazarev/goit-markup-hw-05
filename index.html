@@ -349,18 +349,48 @@
         </div>
       </div>
   </footer>
-  <div class="backdrop">
+  <!-- !Backdrop -->
+  <div class="backdrop is-open">
     <div class="modal-icon">
+      <div class="backdrop-icon">
+        <svg class="backdrop-svg">
+           <use href="./images/icons.svg#icon-cross" width="8" height="8">
+           </use>
+        </svg>
+      </div>
       <p class="backdrop-header">Leave your contacts and we will call you back</p>
       <form class="form" action="">
-        <label class="label" for="name">Name</label>
-        <input class="input" name="name" id="name" type="text">
-        <label class="label" for="phone-number">Phone</label>
-        <input class="input" name="phone-number" id="phone-number" type="tel">
-        <label class="label" for="email">Email</label>
-        <input class="input" name="email" id="email" type="email">
-        <label class="label" for="comment">Comment</label>
-        <textarea class="textarea" name="comment" id="comment"></textarea>
+        <div class="name-container">
+          <label class="label" for="name">Name</label>
+          <div class="input-container">
+            <input class="input" name="name" id="name" type="text">
+            <svg class="icon-for-input" width="13" height="13">
+              <use href="./images/icons.svg#icon-man"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="phone-container">
+          <label class="label" for="phone-number">Phone</label>
+          <div class="input-container">
+            <input class="input" name="phone-number" id="phone-number" type="tel">
+            <svg class="icon-for-input" width="13" height="13">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="email-container">
+          <label class="label" for="email">Email</label>
+          <div class="input-container">
+            <input class="input" name="email" id="email" type="email">
+            <svg class="icon-for-input" width="13" height="13">
+              <use href="./images/icons.svg#icon-letter"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="comment-container">
+          <label class="label" for="comment">Comment</label>
+          <textarea class="textarea" name="comment" id="comment" placeholder="Text input"></textarea>
+        </div>
         <div class="checkbox-container">
           <input id="checkbox" type="checkbox" class="checkbox visually-hidden" name="checkbox">
             <label class="label label-checkbox" for="checkbox">
