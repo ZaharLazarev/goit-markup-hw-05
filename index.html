@@ -350,16 +350,15 @@
       </div>
   </footer>
   <!-- !Backdrop -->
-  <div class="backdrop">
+  <div class="backdrop is-open">
     <div class="modal-icon">
-      <div class="backdrop-icon">
-        <svg class="backdrop-svg">
-           <use href="./images/icons.svg#icon-cross" width="8" height="8">
-           </use>
-        </svg>
-      </div>
+        <button class="backdrop-icon" type="button">
+          <svg class="backdrop-icon-svg">
+            <use href="./images/icons.svg#icon-cross" width="8" height="8"></use>
+          </svg>
+        </button>
       <p class="backdrop-header">Leave your contacts and we will call you back</p>
-      <form class="form" action="">
+      <form class="form">
         <div class="name-container">
           <label class="label" for="name">Name</label>
           <div class="input-container">
@@ -402,7 +401,7 @@
               I accept the terms and conditions of the&nbsp;<a class="checkbox-link" href="">Privacy Policy</a>
             </label>
         </div>
-        <button class="backdrop-button" type="submit">Send</button>
+        <button class="backdrop-button" type="button">Send</button>
       </form>
     </div>
   </div>
