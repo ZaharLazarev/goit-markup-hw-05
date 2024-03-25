@@ -572,8 +572,8 @@ display: block;
 }
 
 .label-checkbox{
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 .checkbox{
