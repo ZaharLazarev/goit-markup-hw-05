@@ -583,7 +583,7 @@ display: block;
 
 .checkbox-container{
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
 }
 
 .checkbox:checked + .label-checkbox .checkbox-span{
@@ -668,11 +668,6 @@ cursor: pointer;
 padding: 0;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-
-.icon-close-container{
-  width: 8px;
-  height:8px;
 }
 
 .backdrop-icon:hover{
