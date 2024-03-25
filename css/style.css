@@ -582,7 +582,7 @@ display: block;
 }
 
 .checkbox-container{
-  display: flex;
+  /* display: flex; */
   margin-bottom: 24px;
 }
 
