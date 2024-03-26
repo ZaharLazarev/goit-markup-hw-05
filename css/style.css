@@ -525,7 +525,8 @@ margin-bottom: 16px;
 }
 
 .footer-form {
-
+  display: flex;
+  gap: 24px;
 }
 .footer-input {
 border: 1px solid #fff;
@@ -559,26 +560,14 @@ letter-spacing: 0.04em;
 color: #fff;
 }
 
-.footer-wraper{
-  position: relative;
-  width: 1440px;
-}
-
-.footer-button-container {
-  position: absolute;
-  top:40px;
-  right: 159px;
-}
-
 .footer-button {
   display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: row;
-gap: 16px;
 border-radius: 4px;
 padding: 8px 24px;
-width: 165px;
+min-width: 165px;
 height: 40px;
 background: #4d5ae5;
 font-weight: 500;
@@ -601,6 +590,7 @@ cursor: pointer;
 
 .footer-button-icon {
   fill: #fff;
+  margin-left: 16px
 }
 /** Backdrop */
 .backdrop{
