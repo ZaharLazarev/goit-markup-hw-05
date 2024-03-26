@@ -512,7 +512,7 @@ margin: auto;
 }
 
 .footer-input-container {
-  margin-right: 24px;
+  
 }
 
 .fotter-input-header {
@@ -540,6 +540,16 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: transparent;
 padding-left: 16px;
 padding-top: 8px;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+outline: transparent;
+}
+
+.footer-input:hover{
+  border-color: #4d5ae5;;
+}
+
+.footer-input:focus{
+  border-color: #4d5ae5;;
 }
 
 .footer-input::placeholder{
@@ -549,8 +559,15 @@ letter-spacing: 0.04em;
 color: #fff;
 }
 
-.footer-button-container {
+.footer-wraper{
+  position: relative;
+  width: 1440px;
+}
 
+.footer-button-container {
+  position: absolute;
+  top:40px;
+  right: 159px;
 }
 
 .footer-button {
@@ -571,6 +588,15 @@ letter-spacing: 0.04em;
 text-align: center;
 color: #fff;
 border: none;
+cursor: pointer;
+}
+
+.footer-button:hover{
+  background-color: #404bbf;
+}
+
+.footer-button:focus{
+  background-color: #404bbf;
 }
 
 .footer-button-icon {
